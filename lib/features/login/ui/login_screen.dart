@@ -9,7 +9,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../core/helper/spacing.dart';
 import '../../../core/widgets/app_text_button.dart';
-import 'widget/already_have_account_text.dart';
+import 'widget/dont_have_account_text.dart';
 import 'widget/terms_and_conditions_text.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -55,7 +55,7 @@ class LoginScreen extends StatelessWidget {
                       verticalSpace(16),
                     const TermsAndConditionsText(),
                     verticalSpace(60),
-                    const AlreadyHaveAccountText(),
+                    const DontHaveAccountText (),
                     const LoginBlocListener(),
                   ],
                 ),
@@ -68,13 +68,9 @@ class LoginScreen extends StatelessWidget {
   }
 
    void validateThenDoLogin(BuildContext context) {
-    if (context.read<LoginCubit>().formKey.currentState!.validate()) {
-      context.read<LoginCubit>().emitLoginStates(
-            LoginRequestBody(
-              email: context.read<LoginCubit>().emailController.text,
-              password: context.read<LoginCubit>().passwordController.text,
-            ),
-          );
+       if (context.read<LoginCubit>().formKey.currentState!.validate()) {
+      context.read<LoginCubit>().emitLoginStates();
     }
+
   }
 }
