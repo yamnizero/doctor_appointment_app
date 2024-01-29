@@ -1,7 +1,9 @@
+import 'package:doctoe_appointment_app/core/helper/extensions.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
+import '../../../../core/routing/routes.dart';
 import '../../../../core/theming/style.dart';
-
 
 class AlreadyHaveAccountText extends StatelessWidget {
   const AlreadyHaveAccountText({super.key});
@@ -17,8 +19,12 @@ class AlreadyHaveAccountText extends StatelessWidget {
             style: TextStyles.font13DarkBlueRegular,
           ),
           TextSpan(
-            text: ' Sign Up',
+            text: ' Login',
             style: TextStyles.font13BlueSemiBold,
+            recognizer: TapGestureRecognizer()
+              ..onTap = () {
+                 context.pushReplacementNamed(Routes.loginScreen);
+              },
           ),
         ],
       ),
