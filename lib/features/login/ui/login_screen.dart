@@ -1,5 +1,4 @@
 import 'package:doctoe_appointment_app/core/theming/style.dart';
-import 'package:doctoe_appointment_app/features/login/data/models/login_request_body.dart';
 import 'package:doctoe_appointment_app/features/login/logic/cubit/login_cubit.dart';
 import 'package:doctoe_appointment_app/features/login/ui/widget/email_and_password.dart';
 import 'package:doctoe_appointment_app/features/login/ui/widget/login_bloc_listener.dart';
