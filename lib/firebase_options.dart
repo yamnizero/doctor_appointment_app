@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBvaO5b43gNhRvdyaUEjzeF1Je8h-HKvxE',
-    appId: '1:391819994416:android:29052bb6d7acdd518514f5',
-    messagingSenderId: '391819994416',
-    projectId: 'flutter-doctor-distribution',
-    storageBucket: 'flutter-doctor-distribution.appspot.com',
+    apiKey: 'AIzaSyAvyPAX_qq4-epX1koxpAAaE8JfYkGjWgM',
+    appId: '1:413472068967:android:83eec4cb2c563ec838cbc2',
+    messagingSenderId: '413472068967',
+    projectId: 'flutter-doctor-distribut-f98ba',
+    storageBucket: 'flutter-doctor-distribut-f98ba.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAuTfqd4DMeFD3tIybX73YBvM4y-S5jjUs',
-    appId: '1:391819994416:ios:80439949aaa975c58514f5',
-    messagingSenderId: '391819994416',
-    projectId: 'flutter-doctor-distribution',
-    storageBucket: 'flutter-doctor-distribution.appspot.com',
+    apiKey: 'AIzaSyCQsNKrEzYyvbgP1seBxdOBcSFXAmhnLkA',
+    appId: '1:413472068967:ios:16b74af3c38b024238cbc2',
+    messagingSenderId: '413472068967',
+    projectId: 'flutter-doctor-distribut-f98ba',
+    storageBucket: 'flutter-doctor-distribut-f98ba.appspot.com',
     iosBundleId: 'com.example.doctoeAppointmentApp',
   );
 }
