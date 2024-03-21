@@ -1,6 +1,5 @@
 
 default_platform(:android)
-
 platform :android do
   desc "Lane for Android Firebase App Distribution"
   lane :firebase_distribution do
