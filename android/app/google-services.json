@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413472068967",
+    "project_id": "flutter-doctor-distribut-f98ba",
+    "storage_bucket": "flutter-doctor-distribut-f98ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413472068967:android:83eec4cb2c563ec838cbc2",
+        "android_client_info": {
+          "package_name": "com.example.doctoe_appointment_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvyPAX_qq4-epX1koxpAAaE8JfYkGjWgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
